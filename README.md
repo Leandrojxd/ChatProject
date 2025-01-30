@@ -51,17 +51,9 @@ By completing this project, the following goals should be achieved:
 - Design Patterns: The Singleton pattern is applied to manage unique instances of key components throughout the application.
 - Port: The server operates on port 5000 to handle incoming client connections.
 
----
-## Architecture
 
-!(Architecture)[./ReadMeImages/ArchitectureChat.png]
-
----
 
 ## Installation and Setup
-1. Clone the repository:
-   bash
-   git clone git@gitlab.com:LeandroJala/chatcapstone.git
 
 2. Navigate to the project directory:
    bash
