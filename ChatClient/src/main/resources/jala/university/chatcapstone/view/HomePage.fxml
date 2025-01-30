@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="jala.university.chatcapstone.view.HomePageController">
+  <children>
+    <Label text="Groups" layoutX="20" layoutY="20" textAlignment="CENTER" />
+
+    <ListView fx:id="groupsListView" layoutX="20" layoutY="60" prefWidth="300" prefHeight="400"/>
+
+    <Button text="View Group" layoutX="20" layoutY="470" onAction="#handleViewGroup"/>
+
+    <Label text="Join a Group" layoutX="400" layoutY="20" textAlignment="CENTER" />
+
+    <TextField fx:id="joinCodeTextField" layoutX="400" layoutY="60" promptText="Enter group code"/>
+    <Button text="Join" layoutX="400" layoutY="100" onAction="#handleJoinGroup"/>
+
+    <Label text="Create a Chat Room" layoutX="400" layoutY="160" textAlignment="CENTER" />
+
+    <TextField fx:id="chatRoomNameTextField" layoutX="400" layoutY="200" promptText="Enter chat room name"/>
+    <Button text="Create Room" layoutX="400" layoutY="240" onAction="#handleCreateRoom"/>
+  </children>
+</AnchorPane>
